@@ -1,4 +1,4 @@
-!#/bin/bash 
+#!/bin/bash 
 
 curl -L https://www.opscode.com/chef/install.sh | sudo bash || echo " curl failed "
 mkdir -p /var/chef/cache /var/chef/cookbooks/chef-server || echo " unable to make directories " 
